@@ -8,6 +8,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class FormsPage extends HomePage {
   // Locators ----------------------------------------------------------------------------------------------------------
   public static By PRACTICE_FORM_OPTION = css("div.show #item-0");
+
   // Public methods ----------------------------------------------------------------------------------------------------
   public void waitForPageToLoad() {
     getElement(FORMS).waitUntilPresent();
