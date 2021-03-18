@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("/menu")
 public class MenuPage extends WidgetsPage {
   // Locators ----------------------------------------------------------------------------------------------------------
-  public static By MENU_TITLE;
+  public static By MENU_TITLE = text("Menu");
   public static By MAIN_ITEM_1;
   public static By MAIN_ITEM_2;
   public static By MAIN_ITEM_3;
