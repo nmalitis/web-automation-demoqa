@@ -46,3 +46,14 @@ Feature: DemoQA - Alerts, Frame And Windows page
     And  I set Alert window value to "You would love to know, eh ?"
     And  I accept alert window
     Then "Prompt result" should contain "You entered You would love to know, eh ?"
+
+  @run
+  Scenario: Modal dialogs - open modal - Close
+    When I click "Modal Dialogs option"
+    And I click "Small modal button"
+    Then "Small modal" should contain "This is a small modal."
+    When I click "Small modal Close button"
+    And I click "Large modal button"
+    Then "Large modal" should contain "Lorem Ipsum is simply dummy text"
+    And I click "Large modal Close button"
+    Then I am on the "Modal Dialogs" page

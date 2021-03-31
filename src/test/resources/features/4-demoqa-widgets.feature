@@ -72,6 +72,7 @@ Feature: DemoQA - Widgets
     When I click "What tab"
     Then "Content" should contain "unknown printer took a galley"
 
+
   Scenario: Tool tips
     When I click "Tool Tips option"
     And  I hover over "Hover me to see button"
@@ -83,7 +84,7 @@ Feature: DemoQA - Widgets
     When I hover over "Section 1.10.32"
     Then "Section Tool tip" should contain "You hovered over the 1.10.32"
 
-  @run
+
   Scenario: Menu
     When I click "Menu option"
     And  I hover over "Main Item 1"

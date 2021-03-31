@@ -30,6 +30,7 @@ public class PageContainer{
     pages.put("BROWSER_WINDOWS_PAGE", new BrowserWindowsPage());
     pages.put("SAMPLE_PAGE", new SamplePage());
     pages.put("ALERTS_PAGE", new AlertsPage());
+    pages.put("MODAL_DIALOGS_PAGE", new ModalDialogsPage());
     pages.put("WIDGETS_PAGE", new WidgetsPage());
     pages.put("ACCORDIAN_PAGE", new AccordianPage());
     pages.put("AUTO_COMPLETE_PAGE", new AutoCompletePage());
